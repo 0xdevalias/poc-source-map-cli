@@ -1,0 +1,15 @@
+{
+  "name": "poc-source-map-cli",
+  "version": "0.0.1",
+  "description": "Recover the original code from a minified file and source map",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glenn 'devalias' Grant (devalias.net)",
+  "license": "MIT",
+  "dependencies": {
+    "source-map": "^0.7.4"
+  }
+}
