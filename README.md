@@ -35,3 +35,10 @@ Which you could then pipe into a file, text editor, etc:
 
 ⇒ ./index.js "/path/to/file.js.map" | jq -r '."webpack:///app/src/cli/main.ts"' | $EDITOR
 ```
+
+## See Also
+
+- https://github.com/mozilla/source-map
+  - > Consume and generate source maps
+  - https://github.com/mozilla/source-map/issues/484
+    - > Add minimal CLI tool to recover original source
